@@ -20,11 +20,15 @@ class LinkedList {
     // Print the list to the provided ostream
     void print(std::ostream &out);
 
-    //❓❓ Question 10: Declare the other linked list methods here:
+    int length();
 
+    string get(int index);
 
+    bool contains(string needle);
 
+    void insertAt(int pos, string value);
 
+    void deleteAt(int pos);
 };
 
 int main() {}
